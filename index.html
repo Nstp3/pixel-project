@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./assets/styles.css" >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+<h1 id="title">Pixel World</h1>
+<p id="description"> Пошаговая бродилка в мире фентези</p>
+
+
+<form id="survey-form">
+
+  <fieldset>
+<label for="name" id="name-label">Введите своё имя 
+  <input id="name"type="text" name="first-name" required placeholder="Введиде имя"/> 
+</label>
+
+  <label for="email" id="email-label"> Введите свой адрес электронной почты
+    <input id="email"type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="адрес электронной почты" required /> 
+  </label> 
+</fieldset>
+
+<fieldset>
+<label for="number" id="number-label">Введите свой возраст (лет): <input id="number" type="number" name="age" min="10" max="120" placeholder="Лет"/>
+</label> 
+</fieldset>
+
+<fieldset>
+  <legend>Выберите ваш пол</legend>
+    <label for="gendermen"> [М]
+      <input id="gendermen" type="radio" name="gender" value="men" checked>
+    </label>
+    <label for="genderwomen"> [Ж]
+      <input id="genderwomen" type="radio" name="gender" value="women">
+    </label>
+</fieldset>
+
+<fieldset>
+  <legend>Что бы вы хотели видеть в будущем на сайте</legend>
+
+<p id="characters">
+  <input type="checkbox" name="characters" value="больше персонажей" checked> Больше персонажей</p>
+
+<p id="loregames">
+  <input type="checkbox" name="loregames" value="проработанный лор игры" checked> Проработанный лор игры</p>
+
+<p id="possibilities"> 
+<input type="checkbox" name="possibilities" value="больше возможностей ходов" checked> Больше возможностей ходов</p>
+</fieldset>
+
+  <fieldset>
+  <label>
+    <!-- возможно нужно будет убрать id -->
+    Выберите персонажа,которым хотите играть:
+
+<select id="dropdown">
+  <option value="">(Мечник)</option>
+  <option value="1">(Лучник)</option>
+  <option value="2">(Маг)</option>
+</select>
+  </label>
+ </fieldset>
+
+  <fieldset>
+<label for="text">Опишите что-бы вы хотели добавить в Pixel World.
+<textarea id="text" name="text" rows="3" cols="30" placeholder="Мне бы хотелось увидеть больше персонажей..."></textarea>
+  </label>
+  </fieldset>
+
+
+<input type="submit" id="submit" value="Отправить" />
+</form>
+  </body>
+
+</html>
+
