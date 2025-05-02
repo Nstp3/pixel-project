@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./assets/styles/abilities.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+
+    <img id="header-img" src="./assets/images/main-logo.png" alt="logo" height="100" />
+
+    <nav id="nav-bar">
+
+      <nav>
+        <a class="nav-link" href="#players">Персонажи</a>
+      </nav>
+
+      <nav>
+
+        <a class="nav-link" href="#main-rules">Способности</a>
+      </nav>
+
+      <nav>
+
+        <a class="nav-link" href="#hero">Карточки игроков</a>
+      </nav>
+
+    </nav>
+  </header>
+
+  <main id="main">
+    <title id="title">Pixel World</title>
+
+    <h1 id="pixel world">Pixel World</h1>
+    <h2>Пошаговая бродилка в мире фентези</h2>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="Введите свой email" required>
+      <input type="submit" id="submit" value="Получить лицензию авантюриста"/>
+    </form>
+    <div class="players">
+    <article id="players">
+      <p>Players</p>
+      <ol>
+        <li>🪄Маг</li>
+        <li>🗡️Мечник</li>
+        <li>🏹Лучник</li>
+        <li>🔪Разбойник</li>
+      </ol>
+    </article>
+    </div>
+    <iframe id="video" controls width="550" controls height="300"  src="https://rutube.ru/play/embed/ffae1e8d4ff38ca1c334325486894a7b/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+    <article id="main-rules">
+      <p>Способности</p>
+      <ol>
+        <li>
+          <h4>Маг</h4>
+          <p>Играя за этот класс, игрок может зачаровать своего соперника [три раза за игру].</p>
+          <p class="rules">Зачарованный игрок не может быстро двигаться — под его ногами болото [игрок вычитает "-2" из выпавшего числа на кубике].</p>
+        </li>
+        <li>
+          <h4>Мечник</h4>
+          <p>Играя за этот класс, игрок получает благословение церкви [три раза за игру].</p>
+          <p class="rules">Благословение церкви: у вас в подсумке лежат три листа из священного писания. Подожгите его, и вы снимите с себя или любого союзника любой негативный эффект.</p>
+        </li>
+        <li>
+          <h4>Лучник</h4>
+          <p>Играя за этот класс, игрок получает возможность быстрого перемещения [три раза за игру].</p>
+          <p class="rules">Быстрое перемещение: вы можете в любой из своих ходов [прибавить "+1" к выпавшему числу на кубике].</p>
+        </li>
+        <li>
+          <h4>Разбойник</h4>
+          <p>Играя за этот класс, игрок может обхитрить своего соперника [три раза за игру].</p>
+          <p class="rules">Разбойник может перевернуть кубик, заменив выпавшее число на противоположное (например, 1 ↔ 6, 2 ↔ 5, 3 ↔ 4).</p>
+        </li>
+      </ol>
+    </article>
+
+    <div id="players">
+    <section id="hero">
+
+      <div class="player-1">
+
+        <div class="player-name">
+          <p>Игрок №1.</p>
+          <h2>Карточка эффектов</h2>
+          <ul>
+            <li> Попал под действие негативных эффектов:
+              <input type="checkbox" name="negative effect" value="negative effect" checked="">
+            </li>
+            <li> Пропусти ход:
+              <input type="checkbox" name="one move" value="one move" checked="">
+              <input type="checkbox" name="two move" value="two move" checked="">
+              <input type="checkbox" name="The third move" value="The third move" checked="">
+            </li>
+            <li> Окружен монстрами:
+              <input type="checkbox" name="monsters" value="monsters" checked="">
+            </li>
+          </ul>
+
+        </div class="cards">
+        <select id="class">>
+   <option value="">🪄[Маг]</option>
+   <option value="1">🗡️[Мечник]</option>
+   <option value="2">🏹[Лучник]</option>
+   <option value="3">🔪[Разбойник]</option>
+ </select>
+        <button class="throw">Бросить кубик</button>
+      </div>
+    </section>
+
+
+    <section id="hero">
+
+      <div class="player-2">
+
+        <div class="player-name">
+          <p>Игрок №2.</p>
+          <h2>Карточка эффектов</h2>
+          <ul>
+            <li> Попал под действие негативных эффектов:
+              <input type="checkbox" name="negative effect" value="negative effect" checked="">
+            </li>
+            <li> Пропусти ход:
+              <input type="checkbox" name="one move" value="one move" checked="">
+              <input type="checkbox" name="two move" value="two move" checked="">
+              <input type="checkbox" name="The third move" value="The third move" checked="">
+            </li>
+            <li> Окружен монстрами:
+              <input type="checkbox" name="monsters" value="monsters" checked="">
+            </li>
+          </ul>
+
+        </div>
+        <select id="class">
+   <option value="">🪄[Маг]</option>
+   <option value="1">🗡️[Мечник]</option>
+   <option value="2">🏹[Лучник]</option>
+   <option value="3">🔪[Разбойник]</option>
+ </select>
+        <button class="throw">Бросить кубик</button>
+      </div>
+    </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--  -->
+
+
+    <!--  -->
+
+  </main>
+</body>
+
+</html>

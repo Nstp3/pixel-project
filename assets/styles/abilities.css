@@ -1,0 +1,118 @@
+body{  background-color:#008080;
+font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color:#FF8C00;
+  text-align:center;
+}
+article>p{
+  color:#800000;
+  
+}
+
+h4{
+  color:#809;
+ 
+}
+ol>li{
+  color:orange;
+}
+.rules{
+  color:#800000;
+}
+#nav-bar{
+  background-color:rgba(0, 128, 128,0.5);
+  width:500px;
+  padding:1%;
+  display:block;
+  unicode-bidi: isolate;
+  margin:auto; 
+
+}
+@media (min-width: 900px) {
+  #nav-bar {
+display:flex;
+flex-direction:row;
+column-gap: 10px;
+width: 100%;
+justify-content:  space-between;
+
+  }
+}
+header{
+  display:flex;
+  border: 2px solid #008B8B;
+  position:sticky;
+  top:0;
+  background-color:rgb(0, 128, 128);
+
+}
+.nav-link{
+  color:orange;
+}
+.nav-link:hover{
+  color:#800000;
+}
+#submit{
+  color:#000;
+  background-color:orange;
+  border: 2px solid #800000;
+}
+#form{
+  display:flex;
+  flex-direction:row;
+  color:#000;
+  justify-content:center;
+  column-gap: 20px;
+}
+#email {
+  border: 2px solid #800000;
+}
+ol,ul{
+list-style-type: none;
+}
+div#players{
+  display:flex;
+  column-gap:20px;
+  flex-direction:row;
+  justify-content: center;
+  
+}
+section{
+  padding: 10px;
+  border: 5px solid #008B8B;
+  display: flex;
+  flex-direction: column;
+}
+div>h2{
+  color:#808;
+}
+div>ul{
+  padding: 0;
+}
+div>p{
+  color:#800000;
+}
+ul>li {
+  font-size: 1.7vh;
+}
+.throw{
+  background-color:orange;
+  border:2px solid #800000;
+}
+#class{
+  background-color:orange;
+  border:2px solid #800000;
+}
+
+
+
+
+@media screen and (min-width: 900px) (max-width: 2000px) {
+    div#players{
+  display:flex;
+  column-gap:20px;
+  flex-direction:row;
+  
+}
+  }
