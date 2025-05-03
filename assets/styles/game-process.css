@@ -1,99 +1,105 @@
-
-img{ 
-  max-width:100%;
+img {
+  max-width: 100%;
   height: auto;
   border-radius: 20px;
-  display:block;
+  display: block;
 }
 
-#img-div{
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
-
-}
-li>img{
-  max-width:10%;
+#img-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-body{
-  background-color:#008080;
-  color:#ccccff;
-  text-align:center;
+li > img {
+  max-width: 10%;
+}
+
+body {
+  background-color: #008080;
+  color: #ccccff;
+  text-align: center;
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
 ul {
-  list-style: none; 
+  list-style: none;
 }
+
 li {
   display: flex;
   align-items: stretch;
   margin-bottom: 20px;
 }
+
 li::before {
-  //content: "🔥";
   content: url(../images/emojisky-com-608.png);
-  zoom:5%;
+  zoom: 5%;
   align-self: center;
 }
 
-h1,h2,h3,h4{
-  color:#808;
+h1, h2, h3, h4 {
+  color: #808;
 }
 
-li>p{
-  color:#800000;
+li > p {
+  color: #800000;
   margin: 0;
 }
-li>a{
-  color:#440C8E;
-  padding-left:1em;
-  padding-right:1em;
+
+li > a {
+  color: #440C8E;
+  padding-left: 1em;
+  padding-right: 1em;
 }
-div>a{
-  color:#440C8E;
+
+div > a {
+  color: #440C8E;
 }
-div>a:hover{
-  color:#00BFFF;
+
+div > a:hover {
+  color: #00BFFF;
 }
-ul:first-of-type li a:hover{
-color:#00BFFF;
+
+ul:first-of-type li a:hover {
+  color: #00BFFF;
 }
+
 ul:first-of-type li a {
   flex-basis: 20%;
-    flex-grow: 0;
-    flex-shrink: 0;
-    //flex: 20% 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 ul:first-of-type li {
-   font-size: 0.7em;
+  font-size: 0.7em;
 }
+
 ul:first-of-type li:before {
-   margin-right: 10em;
+  margin-right: 10em;
 }
+
 ul:first-of-type li > *:not(img) {
   border-right: dotted 2px #808;
 }
 
 ul:first-of-type li div {
   flex-basis: 40%;
-    flex-grow: 0;
-    flex-shrink: 0;
-    //flex: 40% 0 0;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
+
 ul:first-of-type li p {
   flex-basis: 25%;
-    flex-grow: 0;
-    flex-shrink: 0;
-    //flex: 25% 0 0;
-    
+  flex-grow: 0;
+  flex-shrink: 0;
 }
-ul#players{
-  color:#800000;
+
+ul#players {
+  color: #800000;
 }

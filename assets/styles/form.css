@@ -1,37 +1,40 @@
 body {
-background-image: url("../images/background.png");
-color:#ccccff;
-width:100%;
-font-size:16px;
-margin:0;
-height:100vh;
-text-align:center;
+  background-image: url("../images/background.png");
+  color: #ccccff;
+  width: 100%;
+  font-size: 16px;
+  margin: 0;
+  height: 100vh;
+  text-align: center;
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
 .press-start-2p-regular {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-h1,p#description{
-font:fantasy;
-text-align:center;
-margin:1em,auto; 
-color:#808;
-}
-p#characters{
-  margin:1px;
-}
-p#possibilities{
-  margin:9px;
-}
-p#loregames{
-  margin:5px;
+h1, p#description {
+  font: fantasy;
+  text-align: center;
+  margin: 1em, auto;
+  color: #808;
 }
 
+p#characters {
+  margin: 1px;
+}
+
+p#possibilities {
+  margin: 9px;
+}
+
+p#loregames {
+  margin: 5px;
+}
 
 form {
   width: 50vw;
@@ -39,19 +42,20 @@ form {
   min-width: 300px;
   margin: 0 auto;
   padding-bottom: 5em;
-  padding:0.25rem;
+  padding: 0.25rem;
   background: rgba(27, 47, 60, 0.6);
 }
- fieldset{
-border:none;
-padding:1rem 0;
-border-bottom:1px solid #ccccff;
 
- }
- label{
-display:block;
-margin:0.1rem 0;
- }
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccccff;
+}
+
+label {
+  display: block;
+  margin: 0.1rem 0;
+}
 
 input,
 textarea,
@@ -60,17 +64,21 @@ select {
   width: 90%;
   min-height: 1em;
 }
-input, textarea,select {
+
+input, textarea, select {
   background-color: #ccff;
   border: 2px solid #808;
   color: #000;
 }
-label[for="gendermen"]{
-  color:#00ff;
+
+label[for="gendermen"] {
+  color: #00ff;
 }
-label[for="genderwomen"]{
-  color:#808;
+
+label[for="genderwomen"] {
+  color: #808;
 }
+
 input[type="submit"] {
   display: block;
   width: 60%;

@@ -1,161 +1,150 @@
-body{
-background-color:#07979e;
-color:white;
-margin:0;
-font-weight: 400;
+body {
+  background-color: #07979e;
+  color: white;
+  margin: 0;
+  font-weight: 400;
   font-style: normal;
-  text-align:center;
-}
-.project-tile{
-  font-size:41px;
-  color:#FF8B00;
-    background-color: rgb(7 151 158 / 80%);
-    width: fit-content;
-    margin: 25px auto;
-    padding: 0 25px;
-}
-#profile-link{
-  color:#FF8B00;
-  background-color:black;
-  border-radius:10%;
-    font-size:25px;
+  text-align: center;
 }
 
-a{
-text-decoration:none;
+.project-tile {
+  font-size: 41px;
+  color: #FF8B00;
+  background-color: rgb(7 151 158 / 80%);
+  width: fit-content;
+  margin: 25px auto;
+  padding: 0 25px;
 }
 
-#project,p{
-  color:white;
-  font-size:200px;
+#profile-link {
+  color: #FF8B00;
+  background-color: black;
+  border-radius: 10%;
+  font-size: 25px;
 }
-.name-project{
-  color:#FF8B00;
-  font-size:25px;
-  border:3px solid #07979e;
-  border-radius:10%;
-  //margin:0px;
-  //height:20px;
+
+a {
+  text-decoration: none;
+}
+
+#project, p {
+  color: white;
+  font-size: 200px;
+}
+
+.name-project {
+  color: #FF8B00;
+  font-size: 25px;
+  border: 3px solid #07979e;
+  border-radius: 10%;
   height: fit-content;
   width: fit-content;
   padding: 10px;
   margin: 0 auto;
-  background-color:#800;//#be3144;
-    //margin-right: 55px;
-    //margin-left: 55px;
-     //padding: 9%;
-
+  background-color: #800;
 }
 
-#navbar{
-background-color: #800 ;//#00B454;
-  width:auto;
-  padding:2%;
-  margin:auto;
-  position:sticky;
-  top:0;
-  
+#navbar {
+  background-color: #800;
+  width: auto;
+  padding: 2%;
+  margin: auto;
+  position: sticky;
+  top: 0;
 }
-.nav-list{
-display:flex;
-flex-direction:row;
-justify-content:space-between;
-max-width: 645px;
-padding-left: 0;
 
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 645px;
+  padding-left: 0;
 }
+
 @media (min-width: 645px) {
   .nav-list {
-
-margin-left: auto;
+    margin-left: auto;
   }
 }
 
-ul>li>a{
-height:100px;
-font-size:30px;
-color:white;
-
-
+ul > li > a {
+  height: 100px;
+  font-size: 30px;
+  color: white;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-p{
-  font-size:20px;
+p {
+  font-size: 20px;
 }
 
-#welcome-section{
-  background:  #07979e;//#081272;
-  width:100%;
-  height:fit-content;
-  font-size:50px;
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
- padding:25px 0;
-
+#welcome-section {
+  background: #07979e;
+  width: 100%;
+  height: fit-content;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px 0;
 }
-h1{
-   margin: 0;
+
+h1 {
+  margin: 0;
   margin-bottom: 25px;
 }
-  
 
-#projects{ background-image:url(../images/94414c29-c853-492e-b326-8de0b6130ac8.png);
-background-position: center;
-border:3px solid #07979e;
-background-size:85%;
- font-size:40px;
 
+#projects {
+  background-image: url(../images/94414c29-c853-492e-b326-8de0b6130ac8.png);
+  background-position: center;
+  border: 3px solid #07979e;
+  background-size: 85%;
+  font-size: 40px;
 }
 
-.my-project{
-  display:grid;
-  grid-template-columns:repeat(2,450px);
-  //gap:20px;
-  justify-content:center;
-  grid-gap:1rem;
+.my-project {
+  display: grid;
+  grid-template-columns:repeat(2, 450px);
+  justify-content: center;
+  grid-gap: 1rem;
   align-items: center;
-  //max-width:1200px;
-  //margin:0;
-  //width:100%;
-  //border:3px solid #006363;
-  
 }
 
-.img-project{
-min-height:470px;
-max-height:auto;
-width:420px;
-border:3px solid #006363;
-border-radius: 10px;
-height:470px;
-
+.img-project {
+  min-height: 470px;
+  max-height: auto;
+  width: 420px;
+  border: 3px solid #006363;
+  border-radius: 10px;
+  height: 470px;
 }
 
- #contact{
-   background-color:#800;
+#contact {
+  background-color: #800;
   margin-top: -35px;
- }
- .contacts,p{
-   color:#FF8B00;
-   font-size:30px;
- }
- .contact-detal{
-   color:#FF8B00;
-   font-size: 32px;
-   margin: 20px;
- }
+}
 
-.contact-detal{
-display: inline-block;
-transition: 0.3s;
- }
+.contacts, p {
+  color: #FF8B00;
+  font-size: 30px;
+}
 
- .contact-detal:hover{
-   transform: rotate(3deg) translate(5px);
- }
+.contact-detal {
+  color: #FF8B00;
+  font-size: 32px;
+  margin: 20px;
+}
+
+.contact-detal {
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.contact-detal:hover {
+  transform: rotate(3deg) translate(5px);
+}
 
